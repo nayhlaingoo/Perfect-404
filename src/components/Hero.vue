@@ -5,12 +5,7 @@
     <div class="px-7 lg:px-32 xl:px-24">
       <h1 class="text-6xl mb-6 text-primaryFont font-primary">
         <p>Become A Future</p>
-        <div
-          class="mt-5 p-3 w-fit border border-gray-600 rounded-lg transition-all duration-1000"
-         
-        >
-          <div v-html="pickedWord"></div>
-        </div>
+        <AnimatedText />
       </h1>
       <p class="text-lg max-w-md text-accentsFont font-accent whitespace-pre">
         {{ description }}
@@ -21,9 +16,11 @@
 </template>
 
 <script>
+import AnimatedText from './AnimatedText.vue';
 import ButtonPrimary from "./ButtonPrimary.vue";
 export default {
   components: {
+    AnimatedText,
     ButtonPrimary,
   },
   data() {
@@ -38,9 +35,6 @@ Wanna learn how to code? Let's talk.`,
   },
   mounted() {
     setInterval(() => {
-      let keyword = document.getElementById("animated-keyword");
-      this.currentWidth = keyword.offsetWidth;
-      console.log(keyword, this.currentWidth);
       if (this.status === 3) {
         this.status = 0;
       } else {
