@@ -1,7 +1,7 @@
 <template>
   <div class="flex-row flex justify-center flex-wrap">
     <div
-      class="card-main bg-accents/20 rounded-lg shadow-md w-72 m-3 p-2"
+      class="card-main bg-accent/20 rounded-lg shadow-md w-72 m-3 p-2"
       v-for="i in [1, 2, 3, 4, 5, 6, 7, 8]"
       :key="i"
     >
@@ -24,7 +24,7 @@
     </div>
   </div>
 
-  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto py-20 font-accents">
+  <div class="w-10/12 md:w-7/12 lg:6/12 mx-auto py-20 font-accent">
     <h1 class="text-3xl text-center mb-10 font-bold text-primaryFont font-primary">
       Hello Vue From Tailwind
     </h1>

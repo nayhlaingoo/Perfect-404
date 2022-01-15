@@ -1,166 +1,28 @@
 <template>
-  <section> <!-- Hero Section -->
-    <div 
-      class="bg-[url('@/assets/image-10.jpg')] h-screen bg-cover bg-center flex justify-items-center items-center"
-      >
-      <div class="px-7 lg:px-32 xl:px-24">
-        <h1 class="text-6xl mb-6 text-primaryFont font-primary">
-          <spian>Become A Future</spian> <br/>
-          <span>Software Developer</span>
-        </h1>
-        <p class="text-lg max-w-md text-accentsFont font-accents">
-          Follow Your Passions <br/>
-          <span class="text-primary">We inspire your passion</span> <br/>
-          We will help you every step of the way . . .
-        </p>
-        <button
-          class="bg-primary/70 hover:bg-primary text-primaryFont py-2 px-4 rounded my-2">
-          Join Us Now
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-10 px-6 md:px-14">
-    <div
-      class="sm:flex items-center shadow-md bg-accents/10 text-primaryFont font-accents"
-    >
-      <!-- 1st div -->
-      <div class="px-5 sm:px-10">
-        <h1 class="pt-5 text-2xl font-bold font-primary">long established</h1>
-        <p class="my-5 text-accentsFont">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that....
-        </p>
-        <div class="mb-5 flex justify-between">
-          <span class="text-sm">May 20th 2020</span>
-          <a class="sm:block hidden mb-2" href="#">Read more</a>
-        </div>
-      </div>
-      <div>
-        <img
-          class="bg-cover lg:max-w-lg md:max-w-sm sm:max-w-xs mx-auto w-auto"
-          src="@/assets/image-6.jpg"
-          alt="image logo"
-        />
-      </div>
-    </div>
-
-    <div class="md:flex text-primaryFont font-accents">
-      <!-- 2nd div-->
-      <div class="my-5 shadow-md bg-accents/10">
-        <!-- 2nd child div 1 -->
-        <img
-          class="mx-auto w-auto"
-          src="@/assets/image-5.jpg"
-          alt="image logo"
-        />
-        <div class="px-4">
-          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
-            long established
-          </h1>
-          <p class="mb-2 text-accentsFont">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that....
-          </p>
-          <div class="flex justify-between mt-4">
-            <span class="text-sm">May 20th 2020</span>
-            <a class="mb-2" href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="my-5 md:mx-3 shadow-md bg-accents/10">
-        <!-- 2nd child div 2 -->
-        <img
-          class="mx-auto w-auto"
-          src="@/assets/image-5.jpg"
-          alt="image logo"
-        />
-        <div class="px-4">
-          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
-            long established
-          </h1>
-          <p class="mb-2 text-accentsFont">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that....
-          </p>
-          <div class="flex justify-between mt-4">
-            <span class="text-sm">May 20th 2020</span>
-            <a class="mb-2" href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-      <div class="my-5 shadow-md bg-accents/10">
-        <!-- 2nd child div 3 -->
-        <img
-          class="mx-auto w-auto"
-          src="@/assets/image-5.jpg"
-          alt="image logo"
-        />
-        <div class="px-4">
-          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
-            long established
-          </h1>
-          <p class="mb-2 text-accentsFont">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that....
-          </p>
-          <div class="flex justify-between mt-4">
-            <span class="text-sm">May 20th 2020</span>
-            <a class="mb-2" href="#">Read more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="sm:flex items-center shadow-md bg-accents/10 text-primaryFont font-accents"
-    >
-      <!-- 3rd div -->
-      <div>
-        <img
-          class="bg-cover w-auto"
-          src="@/assets/image-1.jpg"
-          alt="image logo"
-        />
-      </div>
-      <div class="px-5 sm:px-10">
-        <h1 class="pt-5 text-2xl font-bold font-primary">long established</h1>
-        <p class="my-5 text-accentsFont">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that....
-        </p>
-        <div class="pb-5 flex justify-between">
-          <span class="text-sm">May 20th 2020</span>
-          <a class="sm:block hidden mb-2" href="#">Read more</a>
-        </div>
-      </div>
-    </div>
+  <section>
+    <Hero />
   </section>
 
   <section class="mt-14">
     <h1
       class="my-5 text-center font-bold text-2xl text-primaryFont font-primary"
     >
-      Own Your Future By Learning Skills
+      Help make a change
     </h1>
     <main class="py-48 lg:px-0 px-10 flex flex-col justify-center">
       <div class="grid grid-cols-2 gap-5 sm:gap-10 max-w-4xl mx-auto">
         <div class="flex justify-end -mt-40">
-          <img
-            class="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden shadow-md"
-            src="@/assets/image-11.jpg"
+          <CodeBlock
+            class="overflow-auto"
+            :code="cssCode"
+            language="language-css"
           />
         </div>
         <div class="flex justify-start">
-          <img
-            class="rounded-lg object-cover overflow-hidden shadow-md"
-            src="https://images.unsplash.com/photo-1640020580603-e7beafd75d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+          <CodeBlock
+            class="overflow-auto"
+            :code="htmlCode"
+            language="language-html"
           />
         </div>
         <div class="sm:-mt-56 -mt-40 flex justify-start">
@@ -209,10 +71,186 @@
       </div>
     </main>
   </section>
+  <section class="py-10 px-6 md:px-14">
+    <div
+      class="sm:flex items-center shadow-md bg-accent/10 text-primaryFont font-accent"
+    >
+      <!-- 1st div -->
+      <div class="px-5 sm:px-10">
+        <h1 class="pt-5 text-2xl font-bold font-primary">long established</h1>
+        <p class="my-5 text-accentsFont">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that....
+        </p>
+        <div class="mb-5 flex justify-between">
+          <span class="text-sm">May 20th 2020</span>
+          <a class="sm:block hidden mb-2" href="#">Read more</a>
+        </div>
+      </div>
+      <div>
+        <img
+          class="bg-cover lg:max-w-lg md:max-w-sm sm:max-w-xs mx-auto w-auto"
+          src="@/assets/image-6.jpg"
+          alt="image logo"
+        />
+      </div>
+    </div>
+
+    <div class="md:flex text-primaryFont font-accent">
+      <!-- 2nd div-->
+      <div class="my-5 shadow-md bg-accent/10">
+        <!-- 2nd child div 1 -->
+        <img
+          class="mx-auto w-auto"
+          src="@/assets/image-5.jpg"
+          alt="image logo"
+        />
+        <div class="px-4">
+          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
+            long established
+          </h1>
+          <p class="mb-2 text-accentsFont">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that....
+          </p>
+          <div class="flex justify-between mt-4">
+            <span class="text-sm">May 20th 2020</span>
+            <a class="mb-2" href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="my-5 md:mx-3 shadow-md bg-accent/10">
+        <!-- 2nd child div 2 -->
+        <img
+          class="mx-auto w-auto"
+          src="@/assets/image-5.jpg"
+          alt="image logo"
+        />
+        <div class="px-4">
+          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
+            long established
+          </h1>
+          <p class="mb-2 text-accentsFont">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that....
+          </p>
+          <div class="flex justify-between mt-4">
+            <span class="text-sm">May 20th 2020</span>
+            <a class="mb-2" href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="my-5 shadow-md bg-accent/10">
+        <!-- 2nd child div 3 -->
+        <img
+          class="mx-auto w-auto"
+          src="@/assets/image-5.jpg"
+          alt="image logo"
+        />
+        <div class="px-4">
+          <h1 class="mt-3 text-2xl my-2 font-bold font-primary">
+            long established
+          </h1>
+          <p class="mb-2 text-accentsFont">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that....
+          </p>
+          <div class="flex justify-between mt-4">
+            <span class="text-sm">May 20th 2020</span>
+            <a class="mb-2" href="#">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="sm:flex items-center shadow-md bg-accent/10 text-primaryFont font-accent"
+    >
+      <!-- 3rd div -->
+      <div>
+        <img
+          class="bg-cover w-auto"
+          src="@/assets/image-1.jpg"
+          alt="image logo"
+        />
+      </div>
+      <div class="px-5 sm:px-10">
+        <h1 class="pt-5 text-2xl font-bold font-primary">long established</h1>
+        <p class="my-5 text-accentsFont">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that....
+        </p>
+        <div class="pb-5 flex justify-between">
+          <span class="text-sm">May 20th 2020</span>
+          <a class="sm:block hidden mb-2" href="#">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
+import CodeBlock from "../components/CodeBlock.vue";
+import Hero from "../components/Hero.vue";
 export default {
   name: "Home",
+  components: {
+    Hero,
+    CodeBlock,
+  },
+  data() {
+    return {
+      htmlCode: `<figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+  <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium">
+        “Tailwind CSS is the only framework that I've seen scale
+        on large teams. It’s easy to customize, adapts to any design,
+        and the build size is tiny.”
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-sky-500 dark:text-sky-400">
+        Sarah Dayan
+      </div>
+      <div class="text-slate-700 dark:text-slate-500">
+        Staff Engineer, Algolia
+      </div>
+    </figcaption>
+  </div>
+</figure>`,
+      cssCode: `*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.918);
+    overflow-x: hidden;
+}
+.navbar{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 10vh;
+    margin-bottom: 0%;
+}`,
+    };
+  },
 };
 </script>

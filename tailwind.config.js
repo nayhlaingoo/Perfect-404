@@ -1,18 +1,17 @@
 module.exports = {
-  content: ["./public/index.html", 
-  "./src/**/*.{vue,js,ts,jsx,tsx}"
-],
+  content: ["./public/index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
-        primary: "#d946ef",
-        accents: "#7dd3fc",
+        primary: "#000000",
+        accent: "#7dd3fc",
+        thistle: "#dcbcf4",
         primaryFont: "#374151",
         accentsFont: "#6b7280",
       },
       fontFamily: {
         primary: ["Lora", "sans-serif"],
-        accents: ["Roboto", "sans-serif"],
+        accent: ["Inter", "sans-serif"],
       },
     },
   },
