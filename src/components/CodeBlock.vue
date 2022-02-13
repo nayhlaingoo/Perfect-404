@@ -1,7 +1,7 @@
 <template>
-  <div class="shadow-2xl">
+  <div>
     <div
-      class="border-b rounded-tr-lg rounded-tl-lg border-gray-500/50 p-2 flex code space-x-2"
+      class="sticky top-0 h-10 w-full border-b rounded-tr-lg rounded-tl-lg border-gray-500/50 p-2 flex items-center code space-x-2"
     >
       <div class="w-3 h-3 bg-[#ec6a5f] rounded-full"></div>
       <div class="w-3 h-3 bg-[#f5cd78] rounded-full"></div>

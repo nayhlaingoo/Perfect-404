@@ -1,4 +1,8 @@
 <template>
+<section>
+  <h1 class="text-5xl pt-20 pb-5 font-bold text-center text-primaryFont font-primary">
+  Explore Languages
+</h1>
   <div class="flex-row flex justify-center flex-wrap">
     <div
       class="card-main bg-accent/20 rounded-lg shadow-md w-72 m-3 p-2"
@@ -79,6 +83,7 @@
       </div>
     </div>
   </div>
+</section>
 </template>
 
 <script>
