@@ -37,7 +37,7 @@
       <h1 class="text-primary font-primary text-4xl text-center">About Us</h1>
     </div>
     <div class="bg-white p-3 bg-[url('@/assets/bg-1.png')] bg-cover">
-      <div class="w-1/2">
+      <div class="w-4/5">
         <h1 class="text-primary font-primary text-2xl mt-3">Lorem</h1>
         <p class="text-accentsFont font-accent my-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
@@ -47,7 +47,7 @@
         </p>
       </div>
       <div class="flex justify-center -mb-20">
-        <div class="md:flex flex-col bg-gray-100 rounded-lg p-6 w-fit shadow-lg m-2">
+      <div class="md:flex bg-gray-100 rounded-lg p-6 w-fit shadow-lg m-2">
           <img
             class="h-16 w-16 md:h-24 md:w-24 rounded-md mx-auto md:mx-0 md:mr-6"
             src="@/assets/img.jpg"
@@ -60,7 +60,7 @@
           </div>
         </div>
 
-        <div class="md:flex bg-gray-100 rounded-lg p-6 w-fit shadow-lg m-2 relative">
+        <!-- <div class="md:flex bg-gray-100 rounded-lg p-6 w-fit shadow-lg m-2 relative">
           <img
             class="h-16 w-16 md:h-16 md:w-16 rounded-full mx-auto md:mx-0 md:mr-6 absolute -top-7"
             src="@/assets/img.jpg"
@@ -71,7 +71,7 @@
             <div class="text-gray-600">email123@example.com</div>
             <div class="text-gray-600">(123) 8765-4321</div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
