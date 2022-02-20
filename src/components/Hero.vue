@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[url('@/assets/image-10.jpg')] h-screen bg-cover bg-fixed bg-center flex justify-items-center items-center"
+    class="bg-[url('@/assets/hero-bg-img.jpg')] h-screen bg-cover bg-fixed bg-center flex justify-items-center items-center"
   >
     <div class="relative -top-10 px-5 lg:px-28 xl:px-24">
       <h1 class="text-6xl mb-6 text-primaryFont font-primary">

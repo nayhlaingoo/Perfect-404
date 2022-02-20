@@ -106,7 +106,7 @@
       </div>
 
       <div
-        class="lg:flex flex-row justify-between mt-14 py-7 px-5 md:px-10 bg-[url('@/assets/map4.jpg')] shadow-black shadow-[0px_0px_100px_70px_inset] bg-center bg-cover bg-fixed"
+        class="lg:flex flex-row justify-between mt-14 py-7 px-5 md:px-10 bg-[url('@/assets/earth.jpg')] shadow-black shadow-[0px_0px_100px_70px_inset] bg-center bg-cover bg-fixed"
       >
         <div class="lg:w-1/2 lg:pr-5 lg:mb-0 mb-7">
           <h1 class="text-rose font-primary font-bold text-xl pl-3 mb-5">
@@ -350,11 +350,32 @@
           <h1 class="text-5xl font-primary font-bold mt-2">
             Become Job Ready.
           </h1>
-          <p class="text-accentsFont font-accent my-4">
-            We are here to guide you in every your steps. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit.
+          <p class="text-accentsFont font-accent mt-4">
+            We are here to guide you in every your steps.
           </p>
-          <ButtonPrimary class="md:w-1/2 w-3/4" label="Train With Us" />
+          <p class="text-accentsFont font-accent flex mt-3">
+            <span class="flex h-3 w-3">
+              <span
+                class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-red-400 opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-2 w-2 bg-red-500"
+              ></span>
+            </span>
+            First learn with us then,
+          </p>
+          <p class="text-accentsFont font-accent flex mt-3">
+            <span class="flex h-3 w-3">
+              <span
+                class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-red-400 opacity-75"
+              ></span>
+              <span
+                class="relative inline-flex rounded-full h-2 w-2 bg-red-500"
+              ></span>
+            </span>
+            Work with us.
+          </p>
+          <ButtonPrimary class="md:w-1/2 w-3/4" label="Startup Now" />
         </div>
         <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
           <div class="container mx-auto w-full h-full">
@@ -447,16 +468,16 @@
     </div>
   </section>
 
-  <section
-    class="mt-20 pt-5 pb-20 bg-[url('@/assets/gridbg1.png')] shadow-cyan-200/20 shadow-[500px_200px_500px_00px_inset] border-slate-300 border-y"
-  >
+  <section class="mt-20">
     <h1
-      class="my-5 text-center mx-auto md:px-10 md:w-4/5 font-primary font-bold md:text-4xl text-3xl text-rose"
+      class="my-4 text-center font-primary text-4xl text-rose"
     >
-      Help Make A Change. <br />
-      Best way to start programming languages skills.
+      Help make a change
     </h1>
-    <main class="sm:px-5">
+    <h1 class="text-rose font-primary text-center text-2xl mb-3">Learn to code with 404</h1>
+    <main
+      class="sm:px-5 pb-20 bg-[url('@/assets/gridbg1.png')] shadow-cyan-200/20 shadow-[500px_200px_500px_00px_inset] border-slate-300 border-y"
+    >
       <div class="md:flex md:justify-between md:items-center w-full my-20">
         <CodeBlock
           class="overflow-auto rounded-md scrollbar-hide h-96 w-full md:w-1/2 block md:hidden"
@@ -466,11 +487,11 @@
         <div class="w-[97%] md:w-1/2 md:mx-2 rounded-md mx-auto">
           <div class="pr-0">
             <Browser label="">
-              <h1 class="font-bold">Code Example</h1>
+              <h1 class="font-bold">Html Code Example</h1>
               <div>
                 <img
                   class="w-[50px]"
-                  src="@/assets/img.jpg"
+                  src="@/assets/profile-img.jpg"
                   alt="profile-image"
                 />
                 <div>
@@ -510,14 +531,14 @@
               <h1
                 class="text-primaryFont text-center font-primary font-bold text-xl mt-5"
               >
-                Code Example
+                Css Code Example
               </h1>
               <div
                 class="relative w-2/3 bg-slate-900/5 shadow-md rounded-md px-3 mt-5 mb-5 mx-auto"
               >
                 <img
                   class="absolute -top-5 left-2 w-[35px] h-[40px] rounded-lg shadow-lg"
-                  src="@/assets/img.jpg"
+                  src="@/assets/profile-img.jpg"
                   alt="profile-image"
                 />
                 <div class="pt-7 pb-3">
@@ -560,21 +581,25 @@
                 <h1
                   class="text-primaryFont text-center font-primary font-bold text-xl mt-5"
                 >
-                  Code Example
+                  JS Code Example
                 </h1>
                 <div
                   class="relative w-2/3 dark:bg-black bg-slate-900/5 shadow-md rounded-md px-3 mt-5 mb-5 mx-auto"
                 >
                   <img
                     class="absolute -top-5 left-2 w-[35px] h-[40px] rounded-lg shadow-lg"
-                    src="@/assets/img.jpg"
+                    src="@/assets/profile-img.jpg"
                     alt="profile-image"
                   />
                   <div class="pt-7 pb-3">
-                    <h1 class="text-primaryFont dark:text-slate-100 mb-1 text-lg font-primary">
+                    <h1
+                      class="text-primaryFont dark:text-slate-100 mb-1 text-lg font-primary"
+                    >
                       Alex
                     </h1>
-                    <p class="text-accentsFont dark:text-slate-300 mb-2 text-sm font-accent">
+                    <p
+                      class="text-accentsFont dark:text-slate-300 mb-2 text-sm font-accent"
+                    >
                       Hey! I'am Alex. I'am going to show you the differents
                       between HyperText Markup Language (Html), Cascading Style
                       Sheets (Css) and JavaScript (JS).
@@ -590,7 +615,8 @@
                   class="text-accentsFont font-accent text-xs mb-5 text-center w-3/4 mx-auto"
                 >
                   <span class="font-primary">Note:</span>This is how JS code
-                  work, Now dark mode button can apply dark theme when you click.
+                  work, Now dark mode button can apply dark theme when you
+                  click.
                 </p>
               </div>
             </Browser>
@@ -674,8 +700,14 @@
           <p class="text-white text-sm mt-1">Typescript</p>
         </div>
       </div>
-      <ButtonWhite class="mx-auto mt-10 shadow-xl" label="View all courses" />
+      <router-link to="/course">
+        <ButtonWhite class="mx-auto mt-10 shadow-xl" label="View all courses" />
+      </router-link>
     </div>
+  </section>
+
+  <section>
+    <About />
   </section>
 
   <section>
@@ -695,6 +727,7 @@ import ButtonPrimary from "../components/ButtonPrimary.vue";
 import ButtonWhite from "../components/ButtonWhite.vue";
 import Footer from "../components/footer.vue";
 import Browser from "../components/Browser.vue";
+import About from "../components/About.vue";
 export default {
   name: "Home",
   components: {
@@ -705,6 +738,7 @@ export default {
     Footer,
     Review,
     Browser,
+    About,
   },
   data() {
     return {

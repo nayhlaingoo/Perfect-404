@@ -2,7 +2,7 @@
   <MobileNav />
 
   <nav
-    class="px-5 z-20 bg-black border-black border-b w-full md:block hidden"
+    class="px-5 z-50 bg-black border-black border-b w-full md:block hidden"
   >
     <div class="px-2 list-none flex justify-between items-center">
         <h1 class="font-bold text-2xl font-primary text-white min-w-max">
@@ -25,7 +25,7 @@
           </router-link>
         </li>
         
-        <div @mouseover="open = true" @mouseleave="open = false" class="rounded-t-md relative min-w-max">
+        <div @mouseover="open = true" @mouseleave="open = false" class="rounded-t-md relative min-w-max z-50">
           <div class="border-rose border-b-2">
             <button
               class="flex flex-row items-center py-3 px-1"
@@ -53,7 +53,7 @@
         <li
           class="duration-100 hover:text-white/70 py-3 px-1 min-w-max border-rose border-b-2"
         >
-          <router-link to="/about">
+          <router-link to="#">
             Contact Us
           </router-link>
         </li>

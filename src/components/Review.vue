@@ -9,12 +9,9 @@
         <div class="text-primaryFont font-primary text-lg">
           {{ review.user }}
         </div>
-        <div class="flex">
+        <div class="flex mt-1 mb-2">
             <StarIcon class="h-4 w-4 text-rose" v-for="rate in review.rating" :key="rate"/>
             <StarIcon class="h-4 w-4 text-rose/20" v-for="rate in 5 - review.rating" :key="rate"/>
-        </div>
-        <div class="text-accentsFont/50 text-xs mt-1 mb-2">
-          {{ review.bio }}
         </div>
         <div class="text-accentsFont text-sm font-accent">
           {{ review.comment }}
@@ -29,15 +26,16 @@
           </h1>
           <p class="text-accentsFont font-accent">How do you think on us. Share your opinion and feel free to write your review.</p>
       </div>
+
       <div class="md:w-72 w-80 py-5 mx-auto md:mx-5">
-        <label class="mb-2 text-primaryFont text-center font-primary" for="Email">Email</label>
-        <input
+        <label class="mb-2 text-primaryFont text-center font-primary" for="Email">Name</label>
+        <input v-model="user"
           type="text"
-          placeholder="username@gmail.com"
+          placeholder="Your name"
           class="my-3 block text-primaryFont bg-slate-100 rounded-md shadow-md w-full px-1 py-2 mr-2"
         />
         <label class="text-primaryFont font-primary" for="Suggestion">Suggestion</label>
-        <textarea
+        <textarea v-model="comment"
           name="feedback"
           id="feedback"
           placeholder="Any suggestion"
@@ -45,7 +43,12 @@
           rows="2"
           class="my-3 block text-primaryFont bg-slate-100 rounded-md shadow-md w-full px-1 py-2"
         ></textarea>
-        <ButtonPrimary class="w-full mt-4" label="Submit" />
+        <div class="">
+          <p class="text-primaryFont font-primary mb-2">Rate</p>
+          <StarIcon v-for="i in 5" :key="i" class="inline w-7 h-7 text-rose cursor-pointer mr-3" />
+        </div>
+        <div class="text-red-900 bg-red-300 p-2 mt-2 rounded-md" v-if="message"> {{ message }} </div>
+        <ButtonPrimary @click="postReview()" class="w-full mt-4" label="Submit" />
       </div>
     </div>
   </section>
@@ -68,15 +71,13 @@ export default {
         {
           user: "Carol",
           rating: 5,
-          bio: "from class A",
           comment:
-            "Best way to learn code in here, very useful courses and very helpful, patients and friendly teachers. I am highly recommend it.",
+          "Best way to learn code in here, very useful courses and very helpful, patients and friendly teachers. I am highly recommend it.",
         },
 
         {
           user: "Alex",
           rating: 4,
-          bio: "from class C",
           comment: 
           "Love to improve my coding skills in here. Very helpful and easy to get point It helped me a lot for learning and developing a site. Thanks :)",
         },
@@ -84,15 +85,13 @@ export default {
         {
           user: "Flora",
           rating: 4,
-          bio: "from class B",
           comment:
-            "I am happy to study here and i love it the way they explain us, good teaching.",
+          "I am happy to study here and i love it the way they explain us, good teaching.",
         },
 
         {
           user: "Emma",
           rating: 5,
-          bio: "from class C",
           comment: 
           "As a beginner, it will help you out and definitely get benefited. they took me up for bacme a fullstack dev. I'll recommend those people who want to become a web developer.",
         },
@@ -100,33 +99,49 @@ export default {
         {
           user: "Sofia",
           rating: 4,
-          bio: "from class A",
-          comment: "I really recommend this college for those people who want to become software developer, because very easy steps of how to write some coding the way they teach.",
+          comment: 
+          "I really recommend this college for those people who want to become software developer, because very easy steps of how to write some coding the way they teach.",
         },
 
         {
           user: "Denial",
           rating: 5,
           bio: "from class B",
-          comment: "This college helped me alot and explained very well. Easily taught and great experience to learn programming languages. Love it!",
+          comment: 
+          "This college helped me alot and explained very well. Easily taught and great experience to learn programming languages. Love it!",
         },
 
         {
           user: "Jenny",
           rating: 4,
-          bio: "from class B",
-          comment: "I am so thankful to mede me become good dev, all courses are good enough for you to make developer.",
+          comment: 
+          "I am so thankful to mede me become good dev, all courses are good enough for you to make developer.",
         },
 
         {
           user: "Paul",
           rating: 4,
-          bio: "from class A",
-          comment: "I am familiar with coding but not expert. Now i've got better understanding of actual web dev and programming lang especially python.",
+          comment: 
+          "I am familiar with coding but not expert. Now i've got better understanding of actual web dev and programming lang especially python.",
         },
       ],
+
+      user: '',
+      comment: '',
+      message: ''
     };
   },
+  methods: {
+    postReview() {
+      if(this.user ==='' || this.comment === '') {
+        this.message = 'Please fill your name and comment.'
+      }else{
+        this.reviews.push({user:this.user, comment:this.comment}) 
+      }
+      this.user = ''
+      this.comment = '' 
+    }
+  }
 };
 </script>
 

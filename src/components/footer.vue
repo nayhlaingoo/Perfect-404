@@ -35,14 +35,14 @@
             />
           </svg>
           <p class="text-accentsFont font-accent text-xs">
-            <i>2022 codexmyanmar</i>
+            <i>2022 The Perfect 404</i>
           </p>
         </div>
         <div
           class="flex flex-row lg:justify-around justify-between items-start flex-wrap mb-10 lg:w-4/5"
         >
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mr-7 md:mr-0 mt-5"
+            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
             <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
               Services
@@ -53,7 +53,7 @@
             <a class="hover:text-accentsFont/70 pt-3" href="#">Hosting</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mr-7 md:mr-0 mt-5"
+            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
             <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
               Company
@@ -64,7 +64,7 @@
             <a class="hover:text-accentsFont/70 pt-3" href="#">Career</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mr-7 md:mr-0 mt-5"
+            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
             <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
               Support
@@ -73,7 +73,7 @@
             <a class="hover:text-accentsFont/70 py-3" href="#">Contact Us</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mr-7 md:mr-0 mt-5"
+            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
             <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
               Social
@@ -114,7 +114,7 @@
         class="border-slate-400/20 border-t pt-5 my-5 font-accent flex flex-row justify-between items-center"
       >
         <p class="text-accentsFont text-xs">
-          Copyright © 2022 codeXmyanmar Ltd.
+          Copyright © 2022 ThePerfect404 Ltd.
         </p>
         <div class="w-1/2 sm:w-1/3 md:w-1/4">
           <div class="flex justify-evenly items-center w-full">
@@ -133,7 +133,7 @@
             <a
               class="bg-slate-100 text-red-600 w-7 h-7 rounded-full shadow-md flex justify-center items-center"
               href="#"
-              ><i class="fab fa-instagram"></i
+              ><i class="fab fa-youtube"></i
             ></a>
             <a
               class="bg-slate-100 text-gray-700 w-7 h-7 rounded-full shadow-md flex justify-center items-center"
