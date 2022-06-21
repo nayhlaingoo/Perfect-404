@@ -1,19 +1,17 @@
 <template>
-  <section>
-    <Hero />
-  </section>
+  <Hero />
 
   <section class="relative py-10">
-    <div class="bg-rose w-px h-[90%] lg:absolute left-1/2"></div>
+    <div class="bg-primary w-px h-[90%] lg:absolute left-1/2"></div>
     <div
       class="px-5 md:px-10 lg:flex flex-row justify-around items-center mb-7"
     >
       <div class="flex flex-col justify-evenly items-center">
         <div class="lg:max-w-lg max-w-screen-md">
-          <h1 class="mb-7 text-4xl font-bold text-rose font-primary">
+          <h1 class="mb-7 text-4xl font-bold text-primary font-primary">
             Who We Are.
           </h1>
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
             quaerat facere eveniet non dolor reiciendis, tempora eaque omnis.
             Consectetur libero sit aliquam laudantium optio, harum a minus
@@ -24,10 +22,10 @@
           </p>
         </div>
         <div class="lg:max-w-lg max-w-screen-md lg:mt-14 my-10">
-          <h1 class="mb-7 text-left text-4xl font-bold text-rose font-primary">
+          <h1 class="mb-7 text-left text-4xl font-bold text-primary font-primary">
             What We Do.
           </h1>
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque
             quaerat facere eveniet non dolor reiciendis, tempora eaque omnis.
             Consectetur libero sit aliquam laudantium optio, harum a minus
@@ -42,11 +40,11 @@
       <div class="flex flex-col justify-evenly items-center lg:pl-14">
         <div class="lg:max-w-lg max-w-screen-md">
           <h1
-            class="mb-7 text-3xl font-bold text-rose font-primary border-b border-rose"
+            class="mb-7 text-3xl font-bold text-primary font-primary border-b border-primary"
           >
             Our Vision
           </h1>
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos
             facere, perferendis aliquam dolores, quia fuga iure veniam ullam
             corrupti deleniti esse provident quas, numquam natus vitae quidem
@@ -55,22 +53,22 @@
         </div>
         <div class="lg:max-w-lg max-w-screen-md lg:my-14 my-10">
           <h1
-            class="mb-7 text-3xl font-bold text-rose font-primary border-b border-rose"
+            class="mb-7 text-3xl font-bold text-primary font-primary border-b border-primary"
           >
             Our Future
           </h1>
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut facilis
             ipsa eligendi, voluptatum magni error debitis sit.
           </p>
         </div>
         <div class="lg:max-w-lg max-w-screen-md">
           <h1
-            class="mb-7 text-3xl font-bold text-rose font-primary border-b border-rose"
+            class="mb-7 text-3xl font-bold text-primary font-primary border-b border-primary"
           >
             Our Bootcamp
           </h1>
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut facilis
             ipsa eligendi, voluptatum magni error debitis sit excepturi
             cupiditate est, esse modi expedita, quasi enim sapiente atque
@@ -81,22 +79,22 @@
     </div>
   </section>
 
-  <section class="my-14">
-    <div class="bg-accent/20 shadow-accent/20 shadow-[0px_0px_100px_100px]">
+  <section>
+    <div class="bg-white pt-10">
       <div class="px-5 md:px-10">
         <div
-          class="bg-rose w-10 h-10 rounded-full flex justify-center items-center my-3 shadow-md"
+          class="bg-primary w-10 h-10 rounded-full flex justify-center items-center my-3 shadow-md"
         >
           <i class="fas fa-code text-white text-xl"></i>
         </div>
-        <h1 class="text-rose font-primary font-bold text-4xl mb-3">
+        <h1 class="text-primary font-primary font-bold text-4xl mb-3">
           There is shortage of
         </h1>
-        <h1 class="text-rose font-primary font-bold text-4xl">
+        <h1 class="text-primary font-primary font-bold text-4xl">
           software engineer in south east asia.
         </h1>
         <div class="max-w-3xl my-5">
-          <p class="text-accentsFont font-accent">
+          <p class="text-secondary font-accent">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. A dolore
             facere nemo maiores veniam quam corporis, expedita reiciendis
             quisquam esse soluta nesciunt atque nam quas blanditiis rerum magnam
@@ -109,13 +107,13 @@
         class="lg:flex flex-row justify-between mt-14 py-7 px-5 md:px-10 bg-[url('@/assets/earth.jpg')] shadow-black shadow-[0px_0px_100px_70px_inset] bg-center bg-cover bg-fixed"
       >
         <div class="lg:w-1/2 lg:pr-5 lg:mb-0 mb-7">
-          <h1 class="text-rose font-primary font-bold text-xl pl-3 mb-5">
+          <h1 class="text-primary font-primary font-bold text-xl pl-3 mb-5">
             What is Software Development?
           </h1>
           <div
-            class="lg:pt-7 p-3 rounded-md bg-black/80 shadow-black/80 shadow-[0px_0px_20px_60px]"
+            class="lg:pt-7 p-3 rounded-md bg-black/60 shadow-black/60 shadow-[0px_0px_20px_60px]"
           >
-            <p class="text-accentsFont font-accent">
+            <p class="text-slate-500 font-accent">
               A software developer, sometimes called a computer programmer, a
               programmer or more recently a coder. They need to know computer
               language such as (e.g. C, C#, Ruby, JavaScript, Python, Java etc).
@@ -123,23 +121,19 @@
               and "software developer" might refer to the same role at different
               companies. They might be self-taught or attended a programming
               bootcamp.
-              <!-- Most typically, someone with a job title of
-              "programmer" or "software developer" might focus on implementing a
-              detailed specification into computer code, fixing bugs, and
-              performing code reviews. -->
             </p>
           </div>
         </div>
 
         <div class="lg:w-1/2">
-          <h1 class="text-rose font-primary font-bold text-xl mb-5">
+          <h1 class="text-primary font-primary font-bold text-xl mb-5">
             Average software developer salary around the world.
           </h1>
           <div
             class="bg-slate-100 rounded-md shadow-lg pt-5 h-64 overflow-auto"
           >
             <table
-              class="text-primaryFont font-accent w-full text-sm border-collapse table-auto"
+              class="text-primaryVariant font-accent w-full text-sm border-collapse table-auto"
             >
               <thead class="text-left">
                 <tr class="sticky -top-5 bg-slate-100/50 backdrop-blur-sm">
@@ -233,170 +227,131 @@
     </div>
   </section>
 
-  <section class="md:px-10">
-    <div class="lg:flex flex-row justify-center items-end">
-      <div class="lg:w-1/2 md:w-3/4 w-full px-5 md:px-0">
-        <h1 class="text-rose text-4xl font-primary font-bold">
+  <section
+    class="md:px-10 mb-10 pt-16 bg-[url('@/assets/tailwindbg.png')] bg-no-repeat bg-cover bg-center shadow-slate-100 shadow-[0px_10px_50px_30px_inset]"
+  >
+    <div class="lg:flex flex-col justify-center items-end">
+      <div class="mx-auto text-center lg:w-3/4 w-full px-5">
+        <h1 class="text-primary text-4xl font-primary font-bold">
           Scale Up Your Skills
         </h1>
-        <p class="text-accentsFont font-accent my-7">
-          Want to become a future software developer? <br />
-          We are here to guide you in every your steps. Level up your coding
-          skills and quickly land a job with tech companies. This is the best
-          place to expand your programming knowledge and get prepared for your
-          next interview.
-        </p>
-        <ButtonPrimary class="lg:mb-12" label="Contact Us Now" />
-
-        <h1
-          class="text-rose text-2xl md:text-3xl font-primary font-bold mt-7 mb-4"
-        >
-          Types of developer
-        </h1>
-        <p
-          class="bg-accent/5 text-accentsFont font-accent rounded-md shadow-xl p-3 w-3/4 text-sm"
-        >
-          <b class="text-primaryFont">Frontend development</b> of the user
-          interface of a website, through the use of HTML,CSS & JavaScript.
-        </p>
-        <p
-          class="bg-accent/5 text-accentsFont font-accent rounded-md shadow-xl p-3 w-3/4 text-sm"
-        >
-          <b class="text-primaryFont">Backend development</b> is also known as
-          server-side development, databases,backend logic & APIs.
-        </p>
-        <p
-          class="bg-accent/5 text-accentsFont font-accent rounded-md shadow-xl p-3 w-3/4 text-sm"
-        >
-          <b class="text-primaryFont">FullStack development</b> is expected to
-          be able to work in all the layers. They can develop both client and
-          server software.
+        <p class="text-secondary font-accent my-7">
+          Want to become a future software developer? We are here to guide you
+          in every your steps. Level up your coding skills and quickly land a
+          job with tech companies. This is the best place to expand your
+          programming knowledge and get prepared for your next interview.
         </p>
       </div>
+
       <div
-        class="lg:grid lg:grid-cols-3 grid grid-cols-3 gap-x-10 md:w-4/5 w-full mx-auto md:ml-auto"
+        class="md:flex flex-row justify-center items-center md:mt-0 pt-10 md:pb-0 pb-5 w-full border-slate-300 border-b"
       >
-        <div class="flex flex-col justify-end items-end">
-          <div class="bg-accent/50 shadow-lg rounded-md p-4">
-            <h2 class="text-primary text-2xl mb-5">01.</h2>
-            <h1 class="text-primaryFont font-primary font-bold text-xl mb-5">
-              Frontend skills
-            </h1>
-            <ul class="text-accentsFont font-accent md:text-sm text-xs">
-              <li class="py-1">UI/UX</li>
-              <li class="py-1">HyperText Markup Language</li>
-              <li class="py-1">Cascading Style Sheets</li>
-              <li class="py-1">JavaScript</li>
-              <li class="py-1">Frameworks</li>
-            </ul>
-          </div>
+        <div
+          class="relative text-center mx-auto w-96 border-slate-300 border-t"
+        >
+          <UserIcon
+            class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-indigo-400 bg-gradient-to-tr from-indigo-400 to-white rounded-full shadow-sm mx-auto"
+          />
+          <h1 class="text-primaryVariant font-primary font-bold text-xl pt-10 mb-4">
+            <span class="text-primaryVariant/90">1.</span> UI/UX
+          </h1>
+          <p class="text-secondary mb-1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            placeat aperiam soluta culpa consequuntur ratione odio accusantium
+            mollitia illo debitis.
+          </p>
+          <img
+            class="w-10 h-10 mx-auto"
+            src="@/assets/arrow-right.svg"
+            alt="arrow-image"
+          />
         </div>
-        <div class="flex flex-col justify-end items-end">
-          <div class="bg-accent/50 shadow-lg rounded-md p-4">
-            <h2 class="text-primary text-2xl mb-5">02.</h2>
-            <h1 class="text-primaryFont font-primary font-bold text-xl mb-5">
-              Backend skills
-            </h1>
-            <ul class="text-accentsFont font-accent md:text-sm text-xs">
-              <li class="py-1">Node. JS</li>
-              <li class="py-1">Python</li>
-              <li class="py-1">Hypertext Preprocessor(PHP)</li>
-              <li class="py-1">Ruby</li>
-              <li class="py-1">GraphQL (Database)</li>
-              <li class="py-1">Server</li>
-              <li class="py-1">Rest & Soap (API)</li>
-              <li class="py-1">Testing/Debugging</li>
-            </ul>
-          </div>
+
+        <div
+          class="relative text-center md:my-8 my-16 md:mx-5 mx-auto w-96 border-slate-300 border-t"
+        >
+          <CodeIcon
+            class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-fuchsia-400 bg-gradient-to-tr from-fuchsia-400 to-white rounded-full shadow-sm mx-auto"
+          />
+          <h1 class="text-primaryVariant font-primary font-bold text-xl pt-10 mb-4">
+            <span class="text-primaryVariant/90">2.</span> Web Development
+          </h1>
+          <p class="text-secondary mb-1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            placeat aperiam soluta culpa consequuntur ratione odio accusantium
+            mollitia illo debitis.
+          </p>
+          <img
+            class="w-10 h-10 mx-auto"
+            src="@/assets/arrow-right.svg"
+            alt="arrow-image"
+          />
         </div>
-        <div class="flex flex-col justify-end items-end mt-4">
-          <div class="bg-accent/50 shadow-lg rounded-md p-4">
-            <h2 class="text-primary text-2xl mb-5">03.</h2>
-            <h1 class="text-primaryFont font-primary font-bold text-xl mb-5">
-              FullStack skills
-            </h1>
-            <ul class="text-accentsFont font-accent md:text-sm text-xs">
-              <li class="py-1">HTML/CSS</li>
-              <li class="py-1">CSS/JS Frameworks</li>
-              <li class="py-1">Git/Github</li>
-              <li class="py-1">configuring Linux servers</li>
-              <li class="py-1">server-side APIs</li>
-              <li class="py-1">Database Management</li>
-              <li class="py-1">Project Management</li>
-              <li class="py-1">Algorithm & Data Structure</li>
-              <li class="py-1">Testing/Debugging</li>
-              <li class="py-1">Security</li>
-              <li class="py-1">Web Architecture</li>
-            </ul>
-          </div>
+
+        <div
+          class="relative text-center mx-auto w-96 border-slate-300 border-t"
+        >
+          <DesktopComputerIcon
+            class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-cyan-400 bg-gradient-to-tr from-cyan-400 to-white rounded-full shadow-sm mx-auto"
+          />
+          <h1 class="text-primaryVariant font-primary font-bold text-xl pt-10 mb-4">
+            <span class="text-primaryVariant/90">3.</span> Software Enginner
+          </h1>
+          <p class="text-secondary mb-1">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            placeat aperiam soluta culpa consequuntur ratione odio accusantium
+            mollitia illo debitis.
+          </p>
+          <CheckIcon class="w-8 h-10 text-black/70 mx-auto" />
         </div>
       </div>
     </div>
   </section>
 
-  <section class="mt-20">
+  <section>
     <div
-      class="bg-accent/20 shadow-accent/20 shadow-[0px_0px_70px_70px] text-rose py-8"
+      class="text-primary shadow-slate-100 shadow-[0px_20px_50px_50px_inset] bg-[url('@/assets/tailwindbg.png')] bg-fixed bg-no-repeat"
     >
-      <div
-        class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-2"
-      >
+      <div class="container mx-auto flex flex-col items-center pt-14">
         <div
-          class="flex flex-col w-2/3 sticky md:top-32 lg:w-1/3 mt-2 md:mt-0 px-5 md:mb-0 mb-7"
+          class="flex flex-col md:w-2/3 mx-auto text-center md:mt-0 px-5 mb-10"
         >
-          <h2 class="ml-2 text-darkrose font-primary tracking-loose">
+          <h2 class="text-darkrose font-primary tracking-loose">
             From Beginner
           </h2>
-          <h1 class="text-5xl font-primary font-bold mt-2">
+          <h1 class="text-4xl md:text-5xl font-primary font-bold mt-2">
             Become Job Ready.
           </h1>
-          <p class="text-accentsFont font-accent mt-4">
-            We are here to guide you in every your steps.
+          <p class="text-secondary font-accent mt-4">
+            We are here to guide you in every your steps. Level up your coding
+            skills and quickly land a job with tech companies. This is the best
+            place to expand your programming knowledge and get prepared for your
+            next interview.
           </p>
-          <p class="text-accentsFont font-accent flex mt-3">
-            <span class="flex h-3 w-3">
-              <span
-                class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-red-400 opacity-75"
-              ></span>
-              <span
-                class="relative inline-flex rounded-full h-2 w-2 bg-red-500"
-              ></span>
-            </span>
-            First learn with us then,
-          </p>
-          <p class="text-accentsFont font-accent flex mt-3">
-            <span class="flex h-3 w-3">
-              <span
-                class="animate-ping absolute inline-flex h-2 w-2 rounded-full bg-red-400 opacity-75"
-              ></span>
-              <span
-                class="relative inline-flex rounded-full h-2 w-2 bg-red-500"
-              ></span>
-            </span>
-            Work with us.
-          </p>
-          <ButtonPrimary class="md:w-1/2 w-3/4" label="Startup Now" />
         </div>
-        <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
-          <div class="container mx-auto w-full h-full">
-            <div class="relative wrap overflow-hidden p-4 h-full">
+        <div class="mx-auto md:w-10/12">
+          <div class="container h-full">
+            <div class="relative p-4 mx-auto h-full">
               <div
-                class="absolute h-full border-x-2 border-rose right-1/2"
+                class="absolute h-full border-x border-slate-400 right-1/2"
               ></div>
               <div
                 class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline"
               >
-                <div class="order-1 w-5/12"></div>
-                <div class="order-1 w-5/12 px-1 py-4 text-right">
+                <div class="order-1 w-full"></div>
+                <div class="order-1 w-full pr-10 py-4 text-right">
                   <h2 class="mb-3 text-base font-primary text-darkrose">
                     1-6 May, 2021
                   </h2>
                   <h1 class="mb-3 font-bold font-primary text-lg md:text-2xl">
                     Registration
                   </h1>
-                  <p class="leading-snug text-accentsFont font-accent">
+                  <p
+                    class="leading-snug text-secondary font-accent md:text-base text-sm"
+                  >
                     Pick your favourite event(s) and register in that event by
                     filling the form corresponding to that event. Its that easy
+                    <br />
                     :)
                   </p>
                 </div>
@@ -405,15 +360,17 @@
               <div
                 class="mb-8 flex justify-between items-center w-full right-timeline"
               >
-                <div class="order-1 w-5/12"></div>
-                <div class="order-1 w-5/12 px-1 py-4 text-left">
+                <div class="order-1 w-full"></div>
+                <div class="order-1 w-full pl-10 py-4 text-left">
                   <h2 class="mb-3 text-base font-primary text-darkrose">
                     6-9 May, 2021
                   </h2>
                   <h1 class="mb-3 font-bold font-primary text-lg md:text-2xl">
                     Participation
                   </h1>
-                  <p class="leading-snug text-accentsFont font-accent">
+                  <p
+                    class="leading-snug text-secondary font-accent md:text-base text-sm"
+                  >
                     Participate online. The links for your registered events
                     will be sent to you via email and whatsapp groups. Use those
                     links and show your talent.
@@ -424,15 +381,17 @@
               <div
                 class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline"
               >
-                <div class="order-1 w-5/12"></div>
-                <div class="order-1 w-5/12 px-1 py-4 text-right">
+                <div class="order-1 w-full"></div>
+                <div class="order-1 w-full pr-10 py-4 text-right">
                   <h2 class="mb-3 text-base font-primary text-darkrose">
                     10 May, 2021
                   </h2>
                   <h1 class="mb-3 font-bold font-primary text-lg md:text-2xl">
                     Result Declaration
                   </h1>
-                  <p class="leading-snug text-accentsFont font-accent">
+                  <p
+                    class="leading-snug text-secondary font-accent md:text-base text-sm"
+                  >
                     The ultimate genius will be revealed by our judging panel on
                     10th May, 2021 and the resukts will be announced on the
                     whatsapp groups and will be mailed to you.
@@ -443,9 +402,9 @@
               <div
                 class="mb-8 flex justify-between items-center w-full right-timeline"
               >
-                <div class="order-1 w-5/12"></div>
+                <div class="order-1 w-full"></div>
 
-                <div class="order-1 w-5/12 px-1 py-4">
+                <div class="order-1 w-full pl-10 py-4">
                   <h2 class="mb-3 text-base font-primary text-darkrose">
                     12 May, 2021
                   </h2>
@@ -454,7 +413,9 @@
                   >
                     Prize Distribution
                   </h1>
-                  <p class="leading-snug text-accentsFont font-accent">
+                  <p
+                    class="leading-snug text-secondary font-accent md:text-base text-sm"
+                  >
                     The winners will be contacted by our team for their
                     addresses and the winning goodies will be sent at their
                     addresses.
@@ -464,19 +425,63 @@
             </div>
           </div>
         </div>
+        <div
+          class="mt-5 px-3 py-5 md:flex justify-center grid grid-cols-2 gap-2 md:gap-10 w-11/12 border-slate-300 border-b"
+        >
+          <div
+            class="hover:-translate-y-1 duration-100 cursor-pointer bg-white rounded-sm shadow-sm flex flex-col justify-center p-5 md:px-5 md:py-8 md:w-64 w-full"
+          >
+            <h1 class="text-primaryVariant font-primary md:text-2xl">20+</h1>
+            <p class="text-primaryVariant font-primary md:text-3xl mb-3">
+              Languages
+            </p>
+            <div>
+              <p class="text-secondary font-accent text-sm">
+                Lorem ipsum dolor sit amet consectetur adipis.
+                <ArrowRightIcon class="inline-flex text-primary w-4 h-4 mx-2" />
+              </p>
+            </div>
+          </div>
+          <div
+            class="hover:-translate-y-1 duration-100 cursor-pointer bg-white rounded-sm shadow-sm flex flex-col justify-center p-5 md:px-5 md:py-8 md:w-64 w-full"
+          >
+            <h1 class="text-primaryVariant font-primary md:text-2xl">14+</h1>
+            <p class="text-primaryVariant font-primary md:text-3xl mb-3">
+              Projects
+            </p>
+            <div>
+              <p class="text-secondary font-accent text-sm">
+                Lorem ipsum dolor sit amet consectetur adipis.
+                <ArrowRightIcon class="inline-flex text-primary w-4 h-4 mx-2" />
+              </p>
+            </div>
+          </div>
+          <div
+            class="hidden hover:-translate-y-1 duration-100 cursor-pointer bg-white rounded-sm shadow-sm md:flex flex-col justify-center p-5 md:px-5 md:py-8 md:w-64 w-full"
+          >
+            <h1 class="text-primaryVariant font-primary md:text-2xl">17+</h1>
+            <p class="text-primaryVariant font-primary md:text-3xl mb-3">Lorem</p>
+            <div>
+              <p class="text-secondary font-accent text-sm">
+                Lorem ipsum dolor sit amet consectetur adipis.
+                <ArrowRightIcon class="inline-flex text-primary w-4 h-4 mx-2" />
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="mt-20">
-    <h1
-      class="my-4 text-center font-primary text-4xl text-rose"
-    >
+    <h1 class="text-center font-primary text-xl text-primary">
       Help make a change
     </h1>
-    <h1 class="text-rose font-primary text-center text-2xl mb-3">Learn to code with 404</h1>
+    <h1 class="text-primary font-primary text-center text-4xl mb-3">
+      Learn to code with perfect 404
+    </h1>
     <main
-      class="sm:px-5 pb-20 bg-[url('@/assets/gridbg1.png')] shadow-cyan-200/20 shadow-[500px_200px_500px_00px_inset] border-slate-300 border-y"
+      class="sm:px-5 pb-20 bg-[url('@/assets/gridbg1.png')] shadow-cyan-200/20 shadow-[500px_200px_500px_00px_inset] border-slate-300 border-b"
     >
       <div class="md:flex md:justify-between md:items-center w-full my-20">
         <CodeBlock
@@ -487,17 +492,17 @@
         <div class="w-[97%] md:w-1/2 md:mx-2 rounded-md mx-auto">
           <div class="pr-0">
             <Browser label="">
-              <h1 class="font-bold">Html Code Example</h1>
+              <h1 class="font-bold">Code Example</h1>
               <div>
                 <img
-                  class="w-[50px]"
-                  src="@/assets/profile-img.jpg"
+                  class="w-[50px] shadow-sm"
+                  src="@/assets/html.png"
                   alt="profile-image"
                 />
                 <div>
-                  <h1 class="font-bold">Alex</h1>
+                  <h1 class="font-bold">HTML</h1>
                   <p>
-                    Hey! I'am Alex. I'am going to show you the differents
+                    Hey! I'am Html. I'am going to show you the differents
                     between HyperText Markup Language (Html), Cascading Style
                     Sheets (Css) and JavaScript (JS).
                   </p>
@@ -529,24 +534,24 @@
           <div class="pl-0">
             <Browser label="">
               <h1
-                class="text-primaryFont text-center font-primary font-bold text-xl mt-5"
+                class="text-primaryVariant text-center font-primary font-bold text-xl mt-5"
               >
-                Css Code Example
+                Code Example
               </h1>
               <div
                 class="relative w-2/3 bg-slate-900/5 shadow-md rounded-md px-3 mt-5 mb-5 mx-auto"
               >
                 <img
-                  class="absolute -top-5 left-2 w-[35px] h-[40px] rounded-lg shadow-lg"
-                  src="@/assets/profile-img.jpg"
+                  class="absolute -top-5 left-2 w-[40px] h-[40px] rounded-full shadow-lg"
+                  src="@/assets/css.png"
                   alt="profile-image"
                 />
                 <div class="pt-7 pb-3">
-                  <h1 class="text-primaryFont mb-1 text-lg font-primary">
-                    Alex
+                  <h1 class="text-primaryVariant mb-1 text-lg font-primary">
+                    CSS
                   </h1>
-                  <p class="text-accentsFont mb-2 text-sm font-accent">
-                    Hey! I'am Alex. I'am going to show you the differents
+                  <p class="text-secondary mb-2 text-sm font-accent">
+                    Hey! I'am Css. I'am going to show you the differents
                     between HyperText Markup Language (Html), Cascading Style
                     Sheets (Css) and JavaScript (JS).
                   </p>
@@ -557,7 +562,7 @@
                 </div>
               </div>
               <p
-                class="text-accentsFont font-accent text-xs mb-5 text-center w-3/4 mx-auto"
+                class="text-secondary font-accent text-xs mb-5 text-center w-3/4 mx-auto"
               >
                 <span class="font-primary">Note:</span>This is how CSS code
                 looks like on webpage (without JS) especially dark mode button
@@ -579,28 +584,28 @@
             <Browser label="">
               <div :class="darkMode ? 'dark' : ''">
                 <h1
-                  class="text-primaryFont text-center font-primary font-bold text-xl mt-5"
+                  class="text-primaryVariant text-center font-primary font-bold text-xl mt-5"
                 >
-                  JS Code Example
+                  Code Example
                 </h1>
                 <div
                   class="relative w-2/3 dark:bg-black bg-slate-900/5 shadow-md rounded-md px-3 mt-5 mb-5 mx-auto"
                 >
                   <img
-                    class="absolute -top-5 left-2 w-[35px] h-[40px] rounded-lg shadow-lg"
-                    src="@/assets/profile-img.jpg"
+                    class="absolute -top-5 left-2 w-[40px] h-[40px] rounded-full shadow-lg"
+                    src="@/assets/js.jpg"
                     alt="profile-image"
                   />
                   <div class="pt-7 pb-3">
                     <h1
-                      class="text-primaryFont dark:text-slate-100 mb-1 text-lg font-primary"
+                      class="text-primaryVariant dark:text-slate-100 mb-1 text-lg font-primary"
                     >
-                      Alex
+                      JavaScript
                     </h1>
                     <p
-                      class="text-accentsFont dark:text-slate-300 mb-2 text-sm font-accent"
+                      class="text-secondary dark:text-slate-300 mb-2 text-sm font-accent"
                     >
-                      Hey! I'am Alex. I'am going to show you the differents
+                      Hey! I'am Javascript. I'am going to show you the differents
                       between HyperText Markup Language (Html), Cascading Style
                       Sheets (Css) and JavaScript (JS).
                     </p>
@@ -612,7 +617,7 @@
                   </div>
                 </div>
                 <p
-                  class="text-accentsFont font-accent text-xs mb-5 text-center w-3/4 mx-auto"
+                  class="text-secondary font-accent text-xs mb-5 text-center w-3/4 mx-auto"
                 >
                   <span class="font-primary">Note:</span>This is how JS code
                   work, Now dark mode button can apply dark theme when you
@@ -632,13 +637,13 @@
   </section>
 
   <section class="my-10">
-    <h1 class="text-rose font-primary font-bold text-4xl text-center">
+    <h1 class="text-primary font-primary font-bold text-4xl text-center">
       But there are some more
     </h1>
     <div
-      class="bg-slate-50 font-accent bg-[url('@/assets/tailwindbg.png')] bg-fixed bg-center shadow-md rounded-md px-4 w-11/12 py-12 mt-7 mx-auto"
+      class="bg-white font-accent bg-[url('@/assets/tailwindbg.png')] bg-no-repeat drop-shadow-sm rounded-sm mx-2 px-4 md:w-10/12 py-12 mt-7 md:mx-auto"
     >
-      <div class="flex flex-row justify-around items-center flex-wrap">
+      <div class="flex flex-row justify-center items-center flex-wrap">
         <div
           class="bg-sky-400 w-32 h-20 rounded-md shadow-xl flex flex-col justify-center items-center mx-2 my-4"
         >
@@ -700,23 +705,22 @@
           <p class="text-white text-sm mt-1">Typescript</p>
         </div>
       </div>
-      <router-link to="/course">
-        <ButtonWhite class="mx-auto mt-10 shadow-xl" label="View all courses" />
-      </router-link>
+      <div class="flex items-center justify-center">
+        <router-link to="/course">
+          <ButtonWhite
+            class="mx-auto mt-10 drop-shadow-xl"
+            label="View all courses"
+          />
+        </router-link>
+      </div>
     </div>
   </section>
 
-  <section>
-    <About />
-  </section>
+  <About id="aboutUs" />
 
-  <section>
-    <Review />
-  </section>
+  <Review />
 
-  <section>
-    <Footer />
-  </section>
+  <Contact id="contact" />
 </template>
 
 <script>
@@ -725,9 +729,14 @@ import Hero from "../components/Hero.vue";
 import Review from "../components/Review.vue";
 import ButtonPrimary from "../components/ButtonPrimary.vue";
 import ButtonWhite from "../components/ButtonWhite.vue";
-import Footer from "../components/footer.vue";
 import Browser from "../components/Browser.vue";
 import About from "../components/About.vue";
+import { UserIcon } from "@heroicons/vue/outline";
+import { CodeIcon } from "@heroicons/vue/outline";
+import { DesktopComputerIcon } from "@heroicons/vue/outline";
+import { ArrowRightIcon } from "@heroicons/vue/outline";
+import { CheckIcon } from "@heroicons/vue/outline";
+import Contact from "../components/Contact.vue"
 export default {
   name: "Home",
   components: {
@@ -735,15 +744,19 @@ export default {
     CodeBlock,
     ButtonPrimary,
     ButtonWhite,
-    Footer,
     Review,
     Browser,
     About,
+    UserIcon,
+    CodeIcon,
+    DesktopComputerIcon,
+    ArrowRightIcon,
+    CheckIcon,
+    Contact
   },
   data() {
     return {
       darkMode: false,
-
       htmlCode: `<!DOCTYPE html>
   <head>
     <link rel="stylesheet" href="./style.css" />

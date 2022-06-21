@@ -4,16 +4,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#171717",             // Neutral-900
-        accent: "#7dd3fc",              // Sky-300
-        rose: "#be123c",                // Rose-700
-        darkrose: "#881337",
-        thistle: "#dcbcf4",             
-        primaryFont: "#374151",         // Gray-700 fontColor
-        accentsFont: "#6b7280",         // Gray-500 fontColor
+        primary: "#be123c",            // rose-700
+        primaryVariant: "#1f2937",     // Gray-800
+        darkrose: "#881337",           // rose-900
+        secondary: "#4b5563",          // Gray-600
       },
       fontFamily: {
-        primary: ["Open Sans","sans-serif"],
+        primary: ["Open Sans","sans-serif"],  // h1 fonts
         accent: ["Inter", "sans-serif"],
       },
     },

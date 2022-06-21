@@ -11,10 +11,11 @@
         </p>
       </div>
     </div>
+    
     <div
       id="wrapper"
       v-html="selectedLabel"
-      class="mt-5 text-6xl h-[90px] flex items-center justify-center w-min overflow-hidden text-rose border border-gray-600 rounded-lg transition-all duration-1000"
+      class="mt-5 text-6xl h-[90px] flex items-center justify-center w-min overflow-hidden text-primary border border-gray-600 rounded-lg transition-all duration-1000"
     ></div>
   </section>
 </template>

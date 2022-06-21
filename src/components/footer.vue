@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-slate-50">
+  <footer class="bg-slate-50 mt-14">
     <div class="px-10 py-5">
       <div class="lg:flex flex-row justify-between items-start">
         <div class="my-5">
@@ -34,7 +34,7 @@
               fill="#876767"
             />
           </svg>
-          <p class="text-accentsFont font-accent text-xs">
+          <p class="text-secondary font-accent text-xs">
             <i>2022 The Perfect 404</i>
           </p>
         </div>
@@ -42,46 +42,46 @@
           class="flex flex-row lg:justify-around justify-between items-start flex-wrap mb-10 lg:w-4/5"
         >
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
+            class="text-secondary font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
-            <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
+            <h1 class="text-primaryVariant/70 font-primary text-lg mb-3">
               Services
             </h1>
-            <a class="hover:text-accentsFont/70" href="#">Design</a>
-            <a class="hover:text-accentsFont/70 py-3" href="#">Software</a>
-            <a class="hover:text-accentsFont/70" href="#">Development</a>
-            <a class="hover:text-accentsFont/70 pt-3" href="#">Hosting</a>
+            <a class="hover:text-secondary/70" href="#">Design</a>
+            <a class="hover:text-secondary/70 py-3" href="#">Software</a>
+            <a class="hover:text-secondary/70" href="#">Development</a>
+            <a class="hover:text-secondary/70 pt-3" href="#">Hosting</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
+            class="text-secondary font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
-            <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
+            <h1 class="text-primaryVariant/70 font-primary text-lg mb-3">
               Company
             </h1>
-            <a class="hover:text-accentsFont/70" href="#">About Us</a>
-            <a class="hover:text-accentsFont/70 py-3" href="#">Jobs</a>
-            <a class="hover:text-accentsFont/70" href="#">Teams</a>
-            <a class="hover:text-accentsFont/70 pt-3" href="#">Career</a>
+            <a class="hover:text-secondary/70" href="#">About Us</a>
+            <a class="hover:text-secondary/70 py-3" href="#">Jobs</a>
+            <a class="hover:text-secondary/70" href="#">Teams</a>
+            <a class="hover:text-secondary/70 pt-3" href="#">Career</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
+            class="text-secondary font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
-            <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
+            <h1 class="text-primaryVariant/70 font-primary text-lg mb-3">
               Support
             </h1>
-            <a class="hover:text-accentsFont/70" href="#">Give Feedback</a>
-            <a class="hover:text-accentsFont/70 py-3" href="#">Contact Us</a>
+            <a class="hover:text-secondary/70" href="#">Give Feedback</a>
+            <a class="hover:text-secondary/70 py-3" href="#">Contact Us</a>
           </div>
           <div
-            class="text-accentsFont font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
+            class="text-secondary font-accent text-sm flex flex-col mx-3 md:mx-0 mt-5 w-auto"
           >
-            <h1 class="text-primaryFont/70 font-primary text-lg mb-3">
+            <h1 class="text-primaryVariant/70 font-primary text-lg mb-3">
               Social
             </h1>
-            <a class="hover:text-accentsFont/70" href="#">Facebook</a>
-            <a class="hover:text-accentsFont/70 py-3" href="#">Discord</a>
-            <a class="hover:text-accentsFont/70" href="#">Github</a>
-            <a class="hover:text-accentsFont/70 pt-3" href="#">Instagram</a>
+            <a class="hover:text-secondary/70" href="#">Facebook</a>
+            <a class="hover:text-secondary/70 py-3" href="#">Discord</a>
+            <a class="hover:text-secondary/70" href="#">Github</a>
+            <a class="hover:text-secondary/70 pt-3" href="#">Instagram</a>
           </div>
         </div>
       </div>
@@ -90,10 +90,10 @@
         class="border-slate-400/20 border-t py-5 my-5 md:flex flex-row justify-between items-center"
       >
         <div class="mr-5 md:mb-0 mb-5">
-          <h1 class="text-primaryFont/70 font-primary mb-2">
+          <h1 class="text-primaryVariant/70 font-primary mb-2">
             Enter Your Email
           </h1>
-          <p class="text-accentsFont font-accent text-sm">
+          <p class="text-secondary font-accent text-sm">
             The new information, next intake, courses and any new update will
             sent to your inbox every weekly.
           </p>
@@ -103,7 +103,7 @@
             <input
               type="Email"
               placeholder="username@gmail.com"
-              class="text-primaryFont border-slate-400 border rounded-md px-1 py-2 mr-2 md:w-auto sm:w-1/2 w-full"
+              class="text-primaryVariant border-slate-400 border focus:border-slate-900 outline-none rounded-md px-1 py-2 mr-2 md:w-auto sm:w-1/2 w-full"
             />
             <ButtonPrimary class="px-10" label="Send" />
           </form>
@@ -113,7 +113,7 @@
       <div
         class="border-slate-400/20 border-t pt-5 my-5 font-accent flex flex-row justify-between items-center"
       >
-        <p class="text-accentsFont text-xs">
+        <p class="text-secondary text-xs">
           Copyright © 2022 ThePerfect404 Ltd.
         </p>
         <div class="w-1/2 sm:w-1/3 md:w-1/4">

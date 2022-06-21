@@ -17,4 +17,4 @@ dom.watch();
 
 createApp(App).use(router).mount('#app')
 
-// App.component("font-awesome-icon", FontAwesomeIcon);
+App.component("font-awesome-icon", FontAwesomeIcon);

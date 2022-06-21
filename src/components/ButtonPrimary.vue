@@ -1,7 +1,7 @@
 <template>
   <button
     @click="$emit('click')"
-    class="bg-primary flex justify-center items-center hover:bg-primary/80 text-white py-2 px-4 rounded my-2"
+    class="bg-neutral-900 flex justify-center items-center hover:bg-neutral-900/80 text-white py-2 px-4 rounded my-2"
   >
     <svg class="w-5 h-5 mr-3 animate-spin" viewBox="0 0 24 24" v-if="loading">
       <path

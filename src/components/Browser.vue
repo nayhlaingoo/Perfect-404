@@ -1,5 +1,6 @@
 <template>
   <div class="bg-white/70 rounded-md shadow-xl">
+  <!-- browser hero -->
     <div>
       <div
         class="bg-black pl-2 flex flex-row justify-between items-center rounded-t-md"
@@ -29,6 +30,8 @@
         </div>
       </div>
     </div>
+    
+    <!-- browser body -->
     <div class="overflow-auto h-60">
       <slot></slot>
     </div>

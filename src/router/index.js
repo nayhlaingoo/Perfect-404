@@ -1,5 +1,5 @@
+import { faTruckLoading } from '@fortawesome/free-solid-svg-icons'
 import { createRouter, createWebHistory } from 'vue-router'
-import About from '../components/About.vue'
 
 const routes = [
   {
@@ -7,15 +7,23 @@ const routes = [
     name: 'Home',
     component: () => import('../views/Home.vue')
   },
+
+  // {
+  //   path: '/contact',
+  //   name: 'Contact',
+  //   component: () => import ('../components/Contact.vue')
+  // },
+
   {
     path: '/course',
     name: 'Course',
-    component: () => import('../views/Course.vue')
+    component: () => import('../views/Course.vue'),
   },
+
   {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/project',
+    name: 'Project',
+    component: () => import ('../components/Project.vue')
   },
 ]
 
