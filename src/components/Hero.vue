@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      description: `Welcome to very first Myanmar Coding Bootcamp. 
+      description: `Welcome to very first Lorem Coding Bootcamp. 
 Here to help achieve your goals in the tech world. 
 Wanna learn how to code? Let's talk.`,
     };
