@@ -1,1 +1,0 @@
-div.code{white-space:pre;font-family:monospace;overflow:auto}div.code:before{counter-reset:listing}div.code p{counter-increment:listing}div.code p:before{content:counter(listing) ". ";display:inline-block;padding-left:auto;margin-left:auto;text-align:right}
