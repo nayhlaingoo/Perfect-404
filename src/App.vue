@@ -34,7 +34,7 @@ export default {
 html,
 body {
   scroll-behavior: smooth;
-  width: fit-content;
+  /* width: fit-content; */
 }
 #top {
   --offset: 50px;

@@ -25,30 +25,30 @@
         :class="
           openNavBar === true ? 'open' : openNavBar === false ? 'close' : ''
         "
-        class="font-accent overflow-auto scrollbar-hide text-base text-white pt-2 pb-16 px-10 flex flex-col justify-start w-full h-screen z-10"
+        class="font-accent overflow-auto scrollbar-hide text-base text-white pt-2 pb-16 px-3 sm:px-10 flex flex-col justify-start w-full h-screen z-10"
       >
         <li
-          class="hover:text-white/70 duration-200 my-10 min-w-max border-primary border-b"
+          class="hover:text-white/70 duration-200 my-5 sm:my-10 min-w-max border-primary border-b"
         >
           <router-link to="/"> Home </router-link>
         </li>
         <li
-          class="hover:text-white/70 duration-200 my-10 min-w-max border-primary border-b"
+          class="hover:text-white/70 duration-200 my-5 sm:my-10 min-w-max border-primary border-b"
         >
           <a class="cursor-pointer" @click="scrollToAbout"> About Us </a>
         </li>
         <li
-          class="hover:text-white/70 duration-200 my-10 min-w-max border-primary border-b"
+          class="hover:text-white/70 duration-200 my-5 sm:my-10 min-w-max border-primary border-b"
         >
           <router-link to="/course"> Our Courses </router-link>
         </li>
         <li
-          class="hover:text-white/70 duration-200 my-10 min-w-max border-primary border-b"
+          class="hover:text-white/70 duration-200 my-5 sm:my-10 min-w-max border-primary border-b"
         >
           <a class="cursor-pointer" @click="scrollToProject">Project</a>
         </li>
         <li
-          class="hover:text-white/70 duration-200 my-10 min-w-max border-primary border-b"
+          class="hover:text-white/70 duration-200 my-5 sm:my-10 min-w-max border-primary border-b"
         >
           <a class="cursor-pointer" @click="scrollToContact">Contact Us</a>
         </li>

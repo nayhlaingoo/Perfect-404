@@ -5,7 +5,7 @@
         <p
           v-for="label in labels"
           v-bind:key="label"
-          class="text-6xl w-min px-2 select-none"
+          class="sm:text-6xl text-xl w-min px-3 select-none"
         >
           {{ label }}
         </p>
@@ -15,7 +15,7 @@
     <div
       id="wrapper"
       v-html="selectedLabel"
-      class="mt-5 text-6xl h-[90px] flex items-center justify-center w-min overflow-hidden text-primary border border-gray-600 rounded-lg transition-all duration-1000"
+      class="mt-5 sm:text-6xl text-2xl sm:h-[90px] py-1 flex items-center justify-center w-min overflow-hidden text-primary border border-gray-600 rounded-lg transition-all duration-1000"
     ></div>
   </section>
 </template>

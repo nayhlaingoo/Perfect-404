@@ -247,7 +247,7 @@
         class="md:flex flex-row justify-center items-center md:mt-0 pt-10 md:pb-0 pb-5 w-full border-slate-300 border-b"
       >
         <div
-          class="relative text-center mx-auto w-96 border-slate-300 border-t"
+          class="relative text-center mx-auto md:w-96 border-slate-300 border-t"
         >
           <UserIcon
             class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-indigo-400 bg-gradient-to-tr from-indigo-400 to-white rounded-full shadow-sm mx-auto"
@@ -268,7 +268,7 @@
         </div>
 
         <div
-          class="relative text-center md:my-8 my-16 md:mx-5 mx-auto w-96 border-slate-300 border-t"
+          class="relative text-center md:my-8 my-16 md:mx-5 mx-auto md:w-96 border-slate-300 border-t"
         >
           <CodeIcon
             class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-fuchsia-400 bg-gradient-to-tr from-fuchsia-400 to-white rounded-full shadow-sm mx-auto"
@@ -289,7 +289,7 @@
         </div>
 
         <div
-          class="relative text-center mx-auto w-96 border-slate-300 border-t"
+          class="relative text-center mx-auto md:w-96 border-slate-300 border-t"
         >
           <DesktopComputerIcon
             class="absolute -top-8 right-1/2 translate-x-1/2 w-14 h-14 p-4 text-cyan-400 bg-gradient-to-tr from-cyan-400 to-white rounded-full shadow-sm mx-auto"
